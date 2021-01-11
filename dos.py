@@ -5,9 +5,9 @@ import sys
 import threading
 import time
 
-host = "192.168.1.1"
-ip = "192.168.1.2"
-port = 80
+host = ""
+ip = ""
+port = 0
 num_requests = 1000000
 
 if len(sys.argv) == 2:
